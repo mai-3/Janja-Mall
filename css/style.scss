@@ -1,0 +1,531 @@
+/*news.html*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.navbarrr a img{
+    margin: 20px ;
+    padding: 10px 550px; 
+}
+.container .content .navbar-nav .nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 13px;
+    padding: 0px 0px;
+}
+
+.container .content .navbar-nav .nav-item a{
+    padding: 0px 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #5e5b5b;
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+.container .content .navbar-nav .nav-item .nav-first{
+    text-transform: uppercase;
+    font-family: "cursive";
+    font-size: 20px;
+    color: rgb(136, 28, 28);
+    padding: 0px 20px;
+}
+.container .content .navbar-nav .nav-item .nav-second{
+    text-transform: uppercase;
+    font-family: "cursive";
+    font-size: 20px;
+    color: #5e5b5b;
+}
+.container .content .navbar-nav .nav-item p{
+    margin: 0px 10px;
+    padding: 10px 7px;
+}
+.container .content .navbar-nav .nav-item .btn{
+    padding: 15px 50px;
+    margin: 0px 0px;
+    background-color: white;
+    border: 1px solid rgb(184, 179, 179);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+}
+.container .content .navbar-nav .nav-item .btn img{
+    padding-left: 100%;
+    position: absolute;
+    padding: 20px;
+    width: 60px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.header .box{
+    width: 27%;
+    height: 70%;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0 , 0 , .06);
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    margin: 20px 0px;
+}
+
+.header .box .image-content img{
+    width: 361px;
+    height: 260px;
+    background-color: rgb(201, 200, 200);
+    margin-bottom: 35px;
+}
+.header .box .content h4{
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1rem;
+    text-transform: capitalize;
+    margin: 5px 23px;
+}
+.header .box .content p{
+    font-size: 12px;
+    line-height: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 13px 23px;
+    color: #7d7d7d;
+}
+.finish{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.finish hr{
+    color: rgba(44, 44, 44, 0.137);
+    width: 35%;
+    margin-top: 20px;
+    
+}
+.finish img{
+    margin-bottom: 30px;
+}
+.finish hr{
+    color: rgba(44, 44, 44, 0.137);
+    width: 35%;
+    margin-top: 20px;
+}
+.hamada .toxic{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 30px 100px;
+    margin-bottom: 90px;
+}
+.hamada .toxic div .num{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    list-style: none;
+}
+.hamada .toxic div ul .first a img{
+    width: 80px;
+    height: 40px;
+}
+.hamada .toxic div ul .second a img{
+    width: 40px;
+    height: 40px;
+}
+.hamada .toxic div h2{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.753);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    text-transform: capitalize;
+    text-justify: auto;
+}
+.hamada .toxic div ul li{
+    list-style: none;
+}
+.hamada .toxic div ul li h3{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.842);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 0px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+}
+/*article.html*/
+.part .all .new{
+    margin-bottom: 20%;
+}
+.part .all .new img{
+    margin: 30px 50px;
+    padding: 10px 40px;
+    width: 780px;
+    height: 400px;
+}
+.part .all .new h1{
+    margin: 0px 60px;
+    padding: 10px 50px;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: rgb(165, 91, 42);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.part .all .new p{
+    color: #7d7d7d;
+    font-family: "cursive";
+    font-size: 15px;
+    width: 80%;
+    margin: 10px 60px;
+    padding: 0px 50px;
+}
+.part .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.part .final .choice ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 15%;
+    padding-bottom: 0%;
+    margin: 0px 50px;
+    padding: 0px 10px;
+    list-style: none;
+}
+.part .final .choice ul .one a span{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 70px;
+    padding: 10px 0px;
+    color: black;
+}
+.part .final .choice ul .two a span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
+    margin: 0px 0px;
+    padding-top: 30px;
+    width: 100%;
+    color: black;
+}
+.part .final .choice ul .two a,
+.part .final .choice ul .one a{
+    text-decoration: none;
+}
+.part .final .choice ul li i{
+    color: orange;
+    margin: 0px 30px;
+    /*margin-left: 10px;*/
+}
+.part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 0px;
+}
+.part .final .box{
+    width: 70%;
+    height: 40%;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0 , 0 , .06);
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    margin: 20px 10px;
+    flex-wrap: wrap;
+    padding-right: 20%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.final .box .image-content img{
+    width: 305px;
+    height:250px;
+    background-color: rgb(201, 200, 200);
+    margin-bottom: 20px;
+}
+.final .box .content h4{
+    color: #000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 5px 23px;
+}
+.final .box .content p{
+    font-size: 12px;
+    line-height: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 13px 23px;
+    color: #7d7d7d;
+}
+/*cinema.html*/
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.head .bag{
+    width: 28%;
+    height: 70%;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0 , 0 , .06);
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    margin: 20px 10px;
+}
+
+.head .bag .image-content img{
+    width: 375px;
+    height: 350px;
+    background-color: rgb(201, 200, 200);
+    margin-bottom: 30px;
+}
+.head .bag .content h4{
+    color: #000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1rem;
+    text-transform: capitalize;
+    margin: 5px 23px;
+}
+.head .bag .content p{
+    font-size: 12px;
+    line-height: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 13px 23px;
+    color: #7d7d7d;
+}
+/*map.html*//*categories*/
+.sub{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.sub .items .twice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0px 0px;
+}
+.sub .items .reastaurants{
+    margin-left: 25%;
+}
+.sub .items .reastaurants .choose{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.sub .items .reastaurants .choose li{
+    list-style: none;
+}
+.sub .items .reastaurants .choose li a img{
+    margin: 0px 30px;
+    width: 45%;
+}
+.sub .items .reastaurants .mark{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px 135px;
+    padding: 0px 10px;
+}
+.sub .items .reastaurants .mark li{
+    list-style: none;
+    margin: 0px 40px;
+}
+.sub .items .reastaurants .mark li a img{
+    width: 80px;
+}
+.sub .items{
+    flex-wrap: wrap;
+    margin: 0px 120px;
+}
+.sub .items .search a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.sub .items .search a img{
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    width: 60px;
+    margin: 20px 0px;
+}
+.sub .items .search hr{
+    width: 30%;
+    margin: 10px;
+    border:1px solid rgb(209, 101, 0);
+}
+.sub .items .search a input{
+    width: 10%;
+    padding: 0px 0px;
+    margin: 0px 60px;
+    background-color: white;
+    border: 1px solid white;
+}
+.sub .items .pic img{
+    margin: 20px 0px;
+    padding: 0px 0px;
+    width: 20%;
+}
+.sub .items h1{
+    font-size: 20px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+.sub .items hr{
+    width: 11%;
+    padding: 0px 20px;
+    border: 1px solid rgb(255, 219, 13);
+}
+.sub .items .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+}
+.sub .items .info .time{
+    color: #7d7d7d;
+    margin: 0px 0px;
+}
+.sub .items .info .phone a{
+    color: #7d7d7d;
+    margin: 0px 20px;
+    padding-right: 1009px;
+    text-decoration: none;
+}
+.sub .items .btn3{
+    background-color: rgb(255, 248, 249);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+    margin-top: 30px;
+}
+.sub .items .btn3 span{
+    color: black;
+    margin: 0px 0px;
+    padding: 10px 15px;
+    margin: 0px 0px;
+    border: 1px solid rgb(255, 245, 246);
+}
+.sub .items .btn3 img{
+    margin: 0px 10px;
+}
+
+.floor{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 20%;
+}
+.sub .items .floor label input{
+    width: 80px;
+    height: 55px;
+    padding:  0px 30px;
+    margin-top: 0px;
+    border-radius: 0px;
+    border: 1px solid #e0e0e0;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sub .items .floor .different input{
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(209, 101, 0);
+}
+.sub .items .list{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 15px;
+    padding: 10px 20px;
+}
+.sub .items .list .nav-list {
+    padding-left: 0%;
+}
+.sub .items .list .had-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 60%;
+}
+.sub .items .list .nav-list li hr{
+    border: 1px solid #7d7d7d;
+    width: 60px;
+    margin: 20px 5px;
+}
+.sub .items .list .had-list li hr{
+    border: 1px solid #7d7d7d;
+    width: 50px;
+    margin: 15px 0px;
+}
+.sub .items .list ul li{
+    list-style: none;
+}
+.sub .items .list .had-list li a img{
+    width: 100%;
+}
+.sub .items .list .nav-list li a img{
+    width: 100%;
+}
+.mahmoud .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.mahmoud .mr a img{
+    width: 100%;
+    padding-left: 30%;
+    margin-top: 0px;
+    margin-bottom: 30%;
+}
+/*fun.html*/
